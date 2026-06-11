@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# Python compilation cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary uploaded/downloaded Excel spreadsheets
+backend/temp_uploads/
+backend/temp_downloads/
+*.xlsx
+
+# Production build artifacts
+dist/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
